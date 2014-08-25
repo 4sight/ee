@@ -9,6 +9,37 @@ body {
   color: #333;
 }
 
+$color1: #10D5EB;
+
+#topbar {
+  width: 100%;
+  height: 20px;
+  background-color: $color1;
+}
+
+h1 {
+  font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+h2 {
+  font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+}
+
+#main {
+  @include outer-container;
+}
+
+h3 {
+  @include span-columns(3);
+  text-align: center;
+}
+
 .hero-unit {
   margin: 50px auto 0 auto;
   width: 600px;
