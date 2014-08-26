@@ -29,6 +29,7 @@ h2 {
   font-size: 20px;
   text-align: center;
   color: grey;
+  margin-bottom: 40px;
 }
 
 #main {
@@ -36,8 +37,16 @@ h2 {
 }
 
 h3 {
-  @include span-columns(3);
+  font-size: 20px;
+}
+
+.link {
+  @include span-columns(4);
   text-align: center;
+  border-radius: 50px;
+  background-color: #DDDDDD;
+  height: 290px;
+  padding: 10px;
 }
 
 .hero-unit {
