@@ -53,18 +53,44 @@ h3 {
   box-shadow: 0 0 40px $color1;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+footer {
+  margin-top: 100px;
+  text-align: center;
+  color: grey;
+}
+
+@media only screen
+// and (min-width : 320px)
+and (max-width : 500px) {
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .image {
+    display: none;
+  }
+  .link {
+    background-color: initial;
+    margin: 0px;
+    padding: 5px;
+  }
+  .linkHover {
+    box-shadow: none;
+  }
+  footer {
+    margin-top: 0px;
+  }
+}
+
+@media only screen
+and (min-width : 500px)
+and (max-width : 900px) {
+  .link {
+    background-color: initial;
+  }
+  .linkHover {
+    box-shadow: none;
   }
 }
