@@ -45,8 +45,12 @@ h3 {
   text-align: center;
   border-radius: 50px;
   background-color: #DDDDDD;
-  height: 290px;
-  padding: 10px;
+  height: 300px;
+  padding: 10px 30px 10px 30px;
+}
+
+.linkHover {
+  box-shadow: 0 0 40px $color1;
 }
 
 .hero-unit {
