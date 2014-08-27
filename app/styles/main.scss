@@ -35,7 +35,7 @@ h1 {
 
 h2 {
   font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   color: grey;
   margin-bottom: 40px;
@@ -63,9 +63,18 @@ h3 {
 }
 
 footer {
-  margin-top: 80px;
+  margin: 80px auto 0px auto;
   text-align: center;
   color: grey;
+}
+
+.hiddenText {
+  color: #4E4E4E;
+  font-size: 14px;
+  position: relative;
+  top: -30px;
+  left: 100px;
+  opacity: 0;
 }
 
 @media only screen
