@@ -4,7 +4,7 @@ $('a.link').mouseenter(function(){
 $('a.link').mouseleave(function(){
   $(this).removeClass('linkHover');
 });
-$('img.linkedin').hover(function(){
+$('a.linkedin').hover(function(){
 	$('.hiddenText').filter(':not(:animated)').animate({
 		opacity: 1
 	})},

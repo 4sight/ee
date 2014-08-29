@@ -10,6 +10,7 @@ body {
 }
 
 $color1: #10D5EB;
+$barPadding: 8px;
 
 a {
   text-decoration: none;
@@ -75,6 +76,40 @@ footer {
   top: -30px;
   left: 100px;
   opacity: 0;
+}
+
+#resume {
+  margin: 0 auto;
+}
+
+td {
+  padding: 0px 25px 0px 25px;
+  line-height: 22px;
+  a {
+    text-decoration: underline;
+  }
+  a:hover {
+    color: $color1;
+  }
+}
+
+.label {
+  width: 250px;
+  text-align: right;
+}
+
+.place {
+  display: inline;
+  font-weight: bold;
+}
+
+.bar {
+  display: inline;
+  padding: 0px $barPadding 0px $barPadding;
+}
+
+.block {
+  padding-bottom: 20px;
 }
 
 @media only screen
