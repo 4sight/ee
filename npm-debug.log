@@ -1,0 +1,625 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.0.0-beta.0
+3 info using node@v0.10.31
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/hgd4th/Projects/4sight',
+6 verbose install   [ 'express',
+6 verbose install     'gzippo',
+6 verbose install     'connect',
+6 verbose install     'connect-livereload',
+6 verbose install     'gulp',
+6 verbose install     'gulp-autoprefixer',
+6 verbose install     'gulp-bower-files',
+6 verbose install     'gulp-cache',
+6 verbose install     'gulp-csso',
+6 verbose install     'gulp-filter',
+6 verbose install     'gulp-flatten',
+6 verbose install     'gulp-if',
+6 verbose install     'gulp-imagemin',
+6 verbose install     'gulp-livereload',
+6 verbose install     'gulp-load-plugins',
+6 verbose install     'gulp-ruby-sass',
+6 verbose install     'gulp-plumber',
+6 verbose install     'gulp-prompt',
+6 verbose install     'gulp-size',
+6 verbose install     'gulp-uglify',
+6 verbose install     'gulp-useref',
+6 verbose install     'lazypipe',
+6 verbose install     'opn',
+6 verbose install     'rimraf',
+6 verbose install     'streamqueue',
+6 verbose install     'wiredep' ] ]
+7 info preinstall @
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping gulp-autoprefixer@^0.0.7 /Users/hgd4th/Projects/4sight
+10 verbose already installed skipping gulp-bower-files@^0.2.1 /Users/hgd4th/Projects/4sight
+11 verbose already installed skipping gulp-cache@^0.1.1 /Users/hgd4th/Projects/4sight
+12 verbose already installed skipping gulp-csso@^0.2.6 /Users/hgd4th/Projects/4sight
+13 verbose already installed skipping gulp-filter@^0.4.1 /Users/hgd4th/Projects/4sight
+14 verbose already installed skipping gulp-flatten@^0.0.2 /Users/hgd4th/Projects/4sight
+15 verbose already installed skipping gulp-if@^1.2.1 /Users/hgd4th/Projects/4sight
+16 verbose cache add [ 'gulp-imagemin@^0.6.0', null ]
+17 verbose cache add spec="gulp-imagemin@^0.6.0" args=["gulp-imagemin@^0.6.0",null]
+18 verbose cache add [ 'gulp-livereload@^2.0.0', null ]
+19 verbose cache add spec="gulp-livereload@^2.0.0" args=["gulp-livereload@^2.0.0",null]
+20 verbose already installed skipping gulp-load-plugins@^0.5.0 /Users/hgd4th/Projects/4sight
+21 verbose already installed skipping gulp-ruby-sass@^0.5.0 /Users/hgd4th/Projects/4sight
+22 verbose parsed spec { raw: 'gulp-imagemin@^0.6.0',
+22 verbose parsed spec   scope: null,
+22 verbose parsed spec   name: 'gulp-imagemin',
+22 verbose parsed spec   rawSpec: '^0.6.0',
+22 verbose parsed spec   spec: '0.6.0',
+22 verbose parsed spec   type: 'range' }
+23 verbose addNamed [ 'gulp-imagemin', '0.6.0' ]
+24 verbose addNamed [ '0.6.0', '0.6.0' ]
+25 verbose parsed spec { raw: 'gulp-livereload@^2.0.0',
+25 verbose parsed spec   scope: null,
+25 verbose parsed spec   name: 'gulp-livereload',
+25 verbose parsed spec   rawSpec: '^2.0.0',
+25 verbose parsed spec   spec: '>=2.0.0-0 <3.0.0-0',
+25 verbose parsed spec   type: 'range' }
+26 verbose addNamed [ 'gulp-livereload', '>=2.0.0-0 <3.0.0-0' ]
+27 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+28 verbose already installed skipping gulp-plumber@^0.6.3 /Users/hgd4th/Projects/4sight
+29 verbose already installed skipping gulp-prompt@^0.1.1 /Users/hgd4th/Projects/4sight
+30 silly lockFile 121449ac-gulp-imagemin-0-6-0 gulp-imagemin@0.6.0
+31 verbose lock gulp-imagemin@0.6.0 /Users/hgd4th/.npm/121449ac-gulp-imagemin-0-6-0.lock
+32 silly lockFile e0c0a8b7-gulp-livereload-2-0-0-0-3-0-0-0 gulp-livereload@>=2.0.0-0 <3.0.0-0
+33 verbose lock gulp-livereload@>=2.0.0-0 <3.0.0-0 /Users/hgd4th/.npm/e0c0a8b7-gulp-livereload-2-0-0-0-3-0-0-0.lock
+34 verbose already installed skipping gulp-size@^0.4.0 /Users/hgd4th/Projects/4sight
+35 verbose mapToRegistry name gulp-imagemin
+36 verbose mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+37 verbose already installed skipping gulp-uglify@^0.3.0 /Users/hgd4th/Projects/4sight
+38 verbose already installed skipping gulp-useref@^0.4.2 /Users/hgd4th/Projects/4sight
+39 silly addNameRange { name: 'gulp-livereload',
+39 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+39 silly addNameRange   hasData: false }
+40 verbose mapToRegistry name gulp-livereload
+41 verbose mapToRegistry uri https://registry.npmjs.org/gulp-livereload
+42 verbose already installed skipping lazypipe@^0.2.1 /Users/hgd4th/Projects/4sight
+43 verbose already installed skipping opn@^0.1.1 /Users/hgd4th/Projects/4sight
+44 verbose request on initialization, where is /gulp-imagemin
+45 verbose request after pass 1, where is /gulp-imagemin
+46 verbose request url raw /gulp-imagemin
+47 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-imagemin' ]
+48 verbose request after pass 2, where is https://registry.npmjs.org/gulp-imagemin
+49 verbose request no auth needed
+50 info retrier registry request attempt 1 at 13:23:19
+51 verbose request id 74fb56279ee88fc0
+52 verbose etag "YM9VSTFW7V9G1TCZNIYYLQBP"
+53 http request GET https://registry.npmjs.org/gulp-imagemin
+54 verbose request on initialization, where is /gulp-livereload
+55 verbose request after pass 1, where is /gulp-livereload
+56 verbose request url raw /gulp-livereload
+57 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-livereload' ]
+58 verbose request after pass 2, where is https://registry.npmjs.org/gulp-livereload
+59 verbose request no auth needed
+60 info retrier registry request attempt 1 at 13:23:19
+61 verbose etag "6K6JN28U4G49O9BASGZ204MXB"
+62 http request GET https://registry.npmjs.org/gulp-livereload
+63 verbose already installed skipping rimraf@^2.2.8 /Users/hgd4th/Projects/4sight
+64 verbose already installed skipping streamqueue@^0.1.1 /Users/hgd4th/Projects/4sight
+65 verbose already installed skipping wiredep@^1.4.3 /Users/hgd4th/Projects/4sight
+66 verbose already installed skipping express@^4.8.7 /Users/hgd4th/Projects/4sight
+67 verbose already installed skipping gzippo@^0.2.0 /Users/hgd4th/Projects/4sight
+68 verbose already installed skipping connect@^2.14.4 /Users/hgd4th/Projects/4sight
+69 verbose already installed skipping connect-livereload@^0.4.0 /Users/hgd4th/Projects/4sight
+70 verbose already installed skipping gulp@^3.6.0 /Users/hgd4th/Projects/4sight
+71 http 304 https://registry.npmjs.org/gulp-livereload
+72 silly registry.get cb [ 304,
+72 silly registry.get   { date: 'Wed, 03 Sep 2014 17:22:07 GMT',
+72 silly registry.get     server: 'Apache',
+72 silly registry.get     via: '1.1 varnish',
+72 silly registry.get     'last-modified': 'Wed, 03 Sep 2014 17:22:07 GMT',
+72 silly registry.get     'cache-control': 'max-age=60',
+72 silly registry.get     etag: '"6K6JN28U4G49O9BASGZ204MXB"',
+72 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+72 silly registry.get     'x-cache': 'HIT',
+72 silly registry.get     'x-cache-hits': '1',
+72 silly registry.get     'x-timer': 'S1409764927.953930,VS0,VE0',
+72 silly registry.get     vary: 'Accept',
+72 silly registry.get     'content-length': '0',
+72 silly registry.get     'keep-alive': 'timeout=10, max=50',
+72 silly registry.get     connection: 'Keep-Alive' } ]
+73 verbose etag https://registry.npmjs.org/gulp-livereload from cache
+74 silly addNameRange number 2 { name: 'gulp-livereload',
+74 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+74 silly addNameRange   hasData: true }
+75 silly addNameRange versions [ 'gulp-livereload',
+75 silly addNameRange   [ '0.1.1',
+75 silly addNameRange     '0.2.0',
+75 silly addNameRange     '0.3.0',
+75 silly addNameRange     '0.3.1',
+75 silly addNameRange     '0.3.2',
+75 silly addNameRange     '1.0.0',
+75 silly addNameRange     '1.0.1',
+75 silly addNameRange     '1.1.0',
+75 silly addNameRange     '1.1.1',
+75 silly addNameRange     '1.2.0',
+75 silly addNameRange     '1.3.1',
+75 silly addNameRange     '1.4.1',
+75 silly addNameRange     '1.4.2',
+75 silly addNameRange     '1.5.0',
+75 silly addNameRange     '2.0.0',
+75 silly addNameRange     '2.1.0',
+75 silly addNameRange     '2.1.1' ] ]
+76 verbose addNamed [ 'gulp-livereload', '2.1.1' ]
+77 verbose addNamed [ '2.1.1', '2.1.1' ]
+78 silly lockFile e881b615-gulp-livereload-2-1-1 gulp-livereload@2.1.1
+79 verbose lock gulp-livereload@2.1.1 /Users/hgd4th/.npm/e881b615-gulp-livereload-2-1-1.lock
+80 silly lockFile e881b615-gulp-livereload-2-1-1 gulp-livereload@2.1.1
+81 silly lockFile e881b615-gulp-livereload-2-1-1 gulp-livereload@2.1.1
+82 silly lockFile e0c0a8b7-gulp-livereload-2-0-0-0-3-0-0-0 gulp-livereload@>=2.0.0-0 <3.0.0-0
+83 silly lockFile e0c0a8b7-gulp-livereload-2-0-0-0-3-0-0-0 gulp-livereload@>=2.0.0-0 <3.0.0-0
+84 http 304 https://registry.npmjs.org/gulp-imagemin
+85 silly registry.get cb [ 304,
+85 silly registry.get   { date: 'Wed, 03 Sep 2014 17:22:08 GMT',
+85 silly registry.get     server: 'Apache',
+85 silly registry.get     via: '1.1 varnish',
+85 silly registry.get     'last-modified': 'Wed, 03 Sep 2014 17:22:08 GMT',
+85 silly registry.get     'cache-control': 'max-age=60',
+85 silly registry.get     etag: '"YM9VSTFW7V9G1TCZNIYYLQBP"',
+85 silly registry.get     'x-served-by': 'cache-jfk1034-JFK',
+85 silly registry.get     'x-cache': 'HIT',
+85 silly registry.get     'x-cache-hits': '1',
+85 silly registry.get     'x-timer': 'S1409764928.013243,VS0,VE14',
+85 silly registry.get     vary: 'Accept',
+85 silly registry.get     'content-length': '0',
+85 silly registry.get     'keep-alive': 'timeout=10, max=50',
+85 silly registry.get     connection: 'Keep-Alive' } ]
+86 verbose etag https://registry.npmjs.org/gulp-imagemin from cache
+87 silly lockFile 121449ac-gulp-imagemin-0-6-0 gulp-imagemin@0.6.0
+88 silly lockFile 121449ac-gulp-imagemin-0-6-0 gulp-imagemin@0.6.0
+89 silly resolved [ { name: 'gulp-livereload',
+89 silly resolved     description: 'Gulp plugin for livereload.',
+89 silly resolved     version: '2.1.1',
+89 silly resolved     main: 'gulp-livereload.js',
+89 silly resolved     scripts: { test: 'mocha' },
+89 silly resolved     repository:
+89 silly resolved      { type: 'git',
+89 silly resolved        url: 'git://github.com/vohof/gulp-livereload.git' },
+89 silly resolved     license: 'MIT',
+89 silly resolved     keywords: [ 'gulpplugin', 'livereload' ],
+89 silly resolved     dependencies:
+89 silly resolved      { 'gulp-util': '^3.0.0',
+89 silly resolved        'lodash.assign': '^2.4.1',
+89 silly resolved        'tiny-lr': '^0.1.0' },
+89 silly resolved     devDependencies:
+89 silly resolved      { should: '^4.0.4',
+89 silly resolved        mocha: '^1.21.4',
+89 silly resolved        sinon: '^1.10.3',
+89 silly resolved        pem: '^1.4.0' },
+89 silly resolved     gitHead: 'd1a7d5e6586cad155ed759e25dd7b37d9590c58b',
+89 silly resolved     bugs: { url: 'https://github.com/vohof/gulp-livereload/issues' },
+89 silly resolved     homepage: 'https://github.com/vohof/gulp-livereload',
+89 silly resolved     _id: 'gulp-livereload@2.1.1',
+89 silly resolved     _shasum: 'e47f4c71e96b40dbfc13521d287bad8e23f6559e',
+89 silly resolved     _from: 'gulp-livereload@>=2.0.0-0 <3.0.0-0',
+89 silly resolved     _npmVersion: '1.4.14',
+89 silly resolved     _npmUser: { name: 'vohof', email: 'david@jcyr.us' },
+89 silly resolved     maintainers: [ [Object] ],
+89 silly resolved     dist:
+89 silly resolved      { shasum: 'e47f4c71e96b40dbfc13521d287bad8e23f6559e',
+89 silly resolved        tarball: 'http://registry.npmjs.org/gulp-livereload/-/gulp-livereload-2.1.1.tgz' },
+89 silly resolved     directories: {},
+89 silly resolved     _resolved: 'https://registry.npmjs.org/gulp-livereload/-/gulp-livereload-2.1.1.tgz',
+89 silly resolved     readme: 'ERROR: No README data found!' },
+89 silly resolved   { name: 'gulp-imagemin',
+89 silly resolved     version: '0.6.0',
+89 silly resolved     description: 'Minify PNG, JPEG, GIF and SVG images',
+89 silly resolved     license: 'MIT',
+89 silly resolved     repository:
+89 silly resolved      { type: 'git',
+89 silly resolved        url: 'git://github.com/sindresorhus/gulp-imagemin' },
+89 silly resolved     author:
+89 silly resolved      { name: 'Sindre Sorhus',
+89 silly resolved        email: 'sindresorhus@gmail.com',
+89 silly resolved        url: 'http://sindresorhus.com' },
+89 silly resolved     engines: { node: '>=0.10.0' },
+89 silly resolved     scripts: { test: 'mocha --timeout 0' },
+89 silly resolved     files: [ 'index.js' ],
+89 silly resolved     keywords:
+89 silly resolved      [ 'gulpplugin',
+89 silly resolved        'imagemin',
+89 silly resolved        'image',
+89 silly resolved        'img',
+89 silly resolved        'picture',
+89 silly resolved        'photo',
+89 silly resolved        'minify',
+89 silly resolved        'minifier',
+89 silly resolved        'compress',
+89 silly resolved        'png',
+89 silly resolved        'jpg',
+89 silly resolved        'jpeg',
+89 silly resolved        'gif',
+89 silly resolved        'svg' ],
+89 silly resolved     dependencies:
+89 silly resolved      { chalk: '^0.4.0',
+89 silly resolved        'gulp-util': '^2.2.0',
+89 silly resolved        imagemin: '^0.4.2',
+89 silly resolved        'object-assign': '^0.3.0',
+89 silly resolved        'pretty-bytes': '^0.1.0',
+89 silly resolved        through2: '^0.5.1' },
+89 silly resolved     devDependencies: { mocha: '*' },
+89 silly resolved     bugs: { url: 'https://github.com/sindresorhus/gulp-imagemin/issues' },
+89 silly resolved     homepage: 'https://github.com/sindresorhus/gulp-imagemin',
+89 silly resolved     _id: 'gulp-imagemin@0.6.0',
+89 silly resolved     _shasum: 'c3d671879afc52ef1ce7d12a5d0b251b3bf029d3',
+89 silly resolved     _from: 'gulp-imagemin@0.6.0',
+89 silly resolved     _npmVersion: '1.4.9',
+89 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+89 silly resolved     maintainers: [ [Object] ],
+89 silly resolved     dist:
+89 silly resolved      { shasum: 'c3d671879afc52ef1ce7d12a5d0b251b3bf029d3',
+89 silly resolved        tarball: 'http://registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-0.6.0.tgz' },
+89 silly resolved     directories: {},
+89 silly resolved     _resolved: 'https://registry.npmjs.org/gulp-imagemin/-/gulp-imagemin-0.6.0.tgz',
+89 silly resolved     readme: 'ERROR: No README data found!' } ]
+90 info install gulp-livereload@2.1.1 into /Users/hgd4th/Projects/4sight
+91 info install gulp-imagemin@0.6.0 into /Users/hgd4th/Projects/4sight
+92 info installOne gulp-livereload@2.1.1
+93 info installOne gulp-imagemin@0.6.0
+94 verbose node_modules/gulp-imagemin unbuild
+95 verbose node_modules/gulp-livereload unbuild
+96 verbose gentlyRm vacuuming /Users/hgd4th/Projects/4sight/node_modules/gulp-imagemin
+97 verbose gentlyRm vacuuming /Users/hgd4th/Projects/4sight/node_modules/gulp-livereload
+98 verbose tar unpack /Users/hgd4th/.npm/gulp-imagemin/0.6.0/package.tgz
+99 silly lockFile 8fbabcf8-sight-node-modules-gulp-imagemin tar:///Users/hgd4th/Projects/4sight/node_modules/gulp-imagemin
+100 verbose lock tar:///Users/hgd4th/Projects/4sight/node_modules/gulp-imagemin /Users/hgd4th/.npm/8fbabcf8-sight-node-modules-gulp-imagemin.lock
+101 silly lockFile 603985c7--gulp-imagemin-0-6-0-package-tgz tar:///Users/hgd4th/.npm/gulp-imagemin/0.6.0/package.tgz
+102 verbose lock tar:///Users/hgd4th/.npm/gulp-imagemin/0.6.0/package.tgz /Users/hgd4th/.npm/603985c7--gulp-imagemin-0-6-0-package-tgz.lock
+103 silly gentlyRm purging /Users/hgd4th/Projects/4sight/node_modules/gulp-livereload
+104 verbose gentlyRm vacuuming /Users/hgd4th/Projects/4sight/node_modules/gulp-imagemin
+105 silly gunzTarPerm modes [ '755', '644' ]
+106 silly gunzTarPerm extractEntry package.json
+107 silly gunzTarPerm extractEntry index.js
+108 silly gunzTarPerm extractEntry readme.md
+109 silly lockFile 8fbabcf8-sight-node-modules-gulp-imagemin tar:///Users/hgd4th/Projects/4sight/node_modules/gulp-imagemin
+110 silly lockFile 8fbabcf8-sight-node-modules-gulp-imagemin tar:///Users/hgd4th/Projects/4sight/node_modules/gulp-imagemin
+111 silly lockFile 603985c7--gulp-imagemin-0-6-0-package-tgz tar:///Users/hgd4th/.npm/gulp-imagemin/0.6.0/package.tgz
+112 silly lockFile 603985c7--gulp-imagemin-0-6-0-package-tgz tar:///Users/hgd4th/.npm/gulp-imagemin/0.6.0/package.tgz
+113 info preinstall gulp-imagemin@0.6.0
+114 verbose readDependencies using package.json deps
+115 verbose readDependencies using package.json deps
+116 silly gentlyRm quitting because other entries in /Users/hgd4th/Projects/4sight/node_modules
+117 verbose tar unpack /Users/hgd4th/.npm/gulp-livereload/2.1.1/package.tgz
+118 silly lockFile cd1100e7-ght-node-modules-gulp-livereload tar:///Users/hgd4th/Projects/4sight/node_modules/gulp-livereload
+119 verbose lock tar:///Users/hgd4th/Projects/4sight/node_modules/gulp-livereload /Users/hgd4th/.npm/cd1100e7-ght-node-modules-gulp-livereload.lock
+120 silly lockFile c0832647-ulp-livereload-2-1-1-package-tgz tar:///Users/hgd4th/.npm/gulp-livereload/2.1.1/package.tgz
+121 verbose lock tar:///Users/hgd4th/.npm/gulp-livereload/2.1.1/package.tgz /Users/hgd4th/.npm/c0832647-ulp-livereload-2-1-1-package-tgz.lock
+122 verbose gentlyRm vacuuming /Users/hgd4th/Projects/4sight/node_modules/gulp-livereload
+123 verbose cache add [ 'chalk@^0.4.0', null ]
+124 verbose cache add spec="chalk@^0.4.0" args=["chalk@^0.4.0",null]
+125 verbose cache add [ 'gulp-util@^2.2.0', null ]
+126 verbose cache add spec="gulp-util@^2.2.0" args=["gulp-util@^2.2.0",null]
+127 silly gunzTarPerm modes [ '755', '644' ]
+128 verbose parsed spec { raw: 'chalk@^0.4.0',
+128 verbose parsed spec   scope: null,
+128 verbose parsed spec   name: 'chalk',
+128 verbose parsed spec   rawSpec: '^0.4.0',
+128 verbose parsed spec   spec: '0.4.0',
+128 verbose parsed spec   type: 'range' }
+129 verbose addNamed [ 'chalk', '0.4.0' ]
+130 verbose addNamed [ '0.4.0', '0.4.0' ]
+131 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+132 verbose lock chalk@0.4.0 /Users/hgd4th/.npm/1efe4790-chalk-0-4-0.lock
+133 verbose cache add [ 'imagemin@^0.4.2', null ]
+134 verbose cache add spec="imagemin@^0.4.2" args=["imagemin@^0.4.2",null]
+135 verbose parsed spec { raw: 'gulp-util@^2.2.0',
+135 verbose parsed spec   scope: null,
+135 verbose parsed spec   name: 'gulp-util',
+135 verbose parsed spec   rawSpec: '^2.2.0',
+135 verbose parsed spec   spec: '>=2.2.0-0 <3.0.0-0',
+135 verbose parsed spec   type: 'range' }
+136 verbose addNamed [ 'gulp-util', '>=2.2.0-0 <3.0.0-0' ]
+137 verbose addNamed [ null, '>=2.2.0-0 <3.0.0-0' ]
+138 silly lockFile e7be6b69-gulp-util-2-2-0-0-3-0-0-0 gulp-util@>=2.2.0-0 <3.0.0-0
+139 verbose lock gulp-util@>=2.2.0-0 <3.0.0-0 /Users/hgd4th/.npm/e7be6b69-gulp-util-2-2-0-0-3-0-0-0.lock
+140 verbose cache add [ 'object-assign@^0.3.0', null ]
+141 verbose cache add spec="object-assign@^0.3.0" args=["object-assign@^0.3.0",null]
+142 verbose parsed spec { raw: 'imagemin@^0.4.2',
+142 verbose parsed spec   scope: null,
+142 verbose parsed spec   name: 'imagemin',
+142 verbose parsed spec   rawSpec: '^0.4.2',
+142 verbose parsed spec   spec: '0.4.2',
+142 verbose parsed spec   type: 'range' }
+143 verbose addNamed [ 'imagemin', '0.4.2' ]
+144 verbose addNamed [ '0.4.2', '0.4.2' ]
+145 silly lockFile 33f46ee6-imagemin-0-4-2 imagemin@0.4.2
+146 verbose lock imagemin@0.4.2 /Users/hgd4th/.npm/33f46ee6-imagemin-0-4-2.lock
+147 verbose mapToRegistry name chalk
+148 verbose mapToRegistry uri https://registry.npmjs.org/chalk
+149 verbose cache add [ 'pretty-bytes@^0.1.0', null ]
+150 verbose cache add spec="pretty-bytes@^0.1.0" args=["pretty-bytes@^0.1.0",null]
+151 verbose parsed spec { raw: 'object-assign@^0.3.0',
+151 verbose parsed spec   scope: null,
+151 verbose parsed spec   name: 'object-assign',
+151 verbose parsed spec   rawSpec: '^0.3.0',
+151 verbose parsed spec   spec: '0.3.0',
+151 verbose parsed spec   type: 'range' }
+152 verbose addNamed [ 'object-assign', '0.3.0' ]
+153 verbose addNamed [ '0.3.0', '0.3.0' ]
+154 silly lockFile 5bbb2364-object-assign-0-3-0 object-assign@0.3.0
+155 verbose lock object-assign@0.3.0 /Users/hgd4th/.npm/5bbb2364-object-assign-0-3-0.lock
+156 silly addNameRange { name: 'gulp-util',
+156 silly addNameRange   range: '>=2.2.0-0 <3.0.0-0',
+156 silly addNameRange   hasData: false }
+157 verbose mapToRegistry name gulp-util
+158 verbose mapToRegistry uri https://registry.npmjs.org/gulp-util
+159 verbose cache add [ 'through2@^0.5.1', null ]
+160 verbose cache add spec="through2@^0.5.1" args=["through2@^0.5.1",null]
+161 verbose parsed spec { raw: 'pretty-bytes@^0.1.0',
+161 verbose parsed spec   scope: null,
+161 verbose parsed spec   name: 'pretty-bytes',
+161 verbose parsed spec   rawSpec: '^0.1.0',
+161 verbose parsed spec   spec: '0.1.0',
+161 verbose parsed spec   type: 'range' }
+162 verbose addNamed [ 'pretty-bytes', '0.1.0' ]
+163 verbose addNamed [ '0.1.0', '0.1.0' ]
+164 silly lockFile 81bbc814-pretty-bytes-0-1-0 pretty-bytes@0.1.0
+165 verbose lock pretty-bytes@0.1.0 /Users/hgd4th/.npm/81bbc814-pretty-bytes-0-1-0.lock
+166 verbose mapToRegistry name imagemin
+167 verbose mapToRegistry uri https://registry.npmjs.org/imagemin
+168 verbose parsed spec { raw: 'through2@^0.5.1',
+168 verbose parsed spec   scope: null,
+168 verbose parsed spec   name: 'through2',
+168 verbose parsed spec   rawSpec: '^0.5.1',
+168 verbose parsed spec   spec: '0.5.1',
+168 verbose parsed spec   type: 'range' }
+169 verbose addNamed [ 'through2', '0.5.1' ]
+170 verbose addNamed [ '0.5.1', '0.5.1' ]
+171 silly lockFile cc0b1369-through2-0-5-1 through2@0.5.1
+172 verbose lock through2@0.5.1 /Users/hgd4th/.npm/cc0b1369-through2-0-5-1.lock
+173 verbose mapToRegistry name object-assign
+174 verbose mapToRegistry uri https://registry.npmjs.org/object-assign
+175 verbose mapToRegistry name pretty-bytes
+176 verbose mapToRegistry uri https://registry.npmjs.org/pretty-bytes
+177 verbose mapToRegistry name through2
+178 verbose mapToRegistry uri https://registry.npmjs.org/through2
+179 silly gunzTarPerm extractEntry package.json
+180 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+181 verbose request on initialization, where is /chalk
+182 verbose request after pass 1, where is /chalk
+183 verbose request url raw /chalk
+184 verbose request resolving registry [ 'https://registry.npmjs.org/', './chalk' ]
+185 verbose request after pass 2, where is https://registry.npmjs.org/chalk
+186 verbose request no auth needed
+187 info retrier registry request attempt 1 at 13:23:19
+188 verbose etag "20S0Y3CS9WXX65EFZGVPJE2N2"
+189 http request GET https://registry.npmjs.org/chalk
+190 verbose request on initialization, where is /gulp-util
+191 verbose request after pass 1, where is /gulp-util
+192 verbose request url raw /gulp-util
+193 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-util' ]
+194 verbose request after pass 2, where is https://registry.npmjs.org/gulp-util
+195 verbose request no auth needed
+196 info retrier registry request attempt 1 at 13:23:19
+197 verbose etag "D97RAZCLNG1J9ZO3KCB0C8V2H"
+198 http request GET https://registry.npmjs.org/gulp-util
+199 verbose request on initialization, where is /object-assign
+200 verbose request after pass 1, where is /object-assign
+201 verbose request url raw /object-assign
+202 verbose request resolving registry [ 'https://registry.npmjs.org/', './object-assign' ]
+203 verbose request after pass 2, where is https://registry.npmjs.org/object-assign
+204 verbose request no auth needed
+205 info retrier registry request attempt 1 at 13:23:19
+206 verbose etag "A7AL5ZJO743ZPM183J06EX26N"
+207 http request GET https://registry.npmjs.org/object-assign
+208 verbose request on initialization, where is /imagemin
+209 verbose request after pass 1, where is /imagemin
+210 verbose request url raw /imagemin
+211 verbose request resolving registry [ 'https://registry.npmjs.org/', './imagemin' ]
+212 verbose request after pass 2, where is https://registry.npmjs.org/imagemin
+213 verbose request no auth needed
+214 info retrier registry request attempt 1 at 13:23:19
+215 verbose etag "286YFYSZNDH8JC7WATDB8UDKP"
+216 http request GET https://registry.npmjs.org/imagemin
+217 silly gunzTarPerm extractEntry .npmignore
+218 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+219 silly gunzTarPerm extractEntry README.md
+220 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+221 verbose request on initialization, where is /through2
+222 verbose request after pass 1, where is /through2
+223 verbose request url raw /through2
+224 verbose request resolving registry [ 'https://registry.npmjs.org/', './through2' ]
+225 verbose request after pass 2, where is https://registry.npmjs.org/through2
+226 verbose request no auth needed
+227 info retrier registry request attempt 1 at 13:23:19
+228 verbose etag "9GPB3QYSJ0FVC2H95TEJ0O0B3"
+229 http request GET https://registry.npmjs.org/through2
+230 verbose request on initialization, where is /pretty-bytes
+231 verbose request after pass 1, where is /pretty-bytes
+232 verbose request url raw /pretty-bytes
+233 verbose request resolving registry [ 'https://registry.npmjs.org/', './pretty-bytes' ]
+234 verbose request after pass 2, where is https://registry.npmjs.org/pretty-bytes
+235 verbose request no auth needed
+236 info retrier registry request attempt 1 at 13:23:19
+237 verbose etag "E1FTH3JHYWT32EUGQTA4F38C9"
+238 http request GET https://registry.npmjs.org/pretty-bytes
+239 silly gunzTarPerm extractEntry gulp-livereload.js
+240 silly gunzTarPerm modified mode [ 'gulp-livereload.js', 438, 420 ]
+241 silly gunzTarPerm extractEntry .travis.yml
+242 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+243 silly gunzTarPerm extractEntry test/greload.js
+244 silly gunzTarPerm modified mode [ 'test/greload.js', 438, 420 ]
+245 silly lockFile cd1100e7-ght-node-modules-gulp-livereload tar:///Users/hgd4th/Projects/4sight/node_modules/gulp-livereload
+246 silly lockFile cd1100e7-ght-node-modules-gulp-livereload tar:///Users/hgd4th/Projects/4sight/node_modules/gulp-livereload
+247 silly lockFile c0832647-ulp-livereload-2-1-1-package-tgz tar:///Users/hgd4th/.npm/gulp-livereload/2.1.1/package.tgz
+248 silly lockFile c0832647-ulp-livereload-2-1-1-package-tgz tar:///Users/hgd4th/.npm/gulp-livereload/2.1.1/package.tgz
+249 info preinstall gulp-livereload@2.1.1
+250 verbose readDependencies using package.json deps
+251 verbose readDependencies using package.json deps
+252 verbose cache add [ 'gulp-util@^3.0.0', null ]
+253 verbose cache add spec="gulp-util@^3.0.0" args=["gulp-util@^3.0.0",null]
+254 verbose cache add [ 'lodash.assign@^2.4.1', null ]
+255 verbose cache add spec="lodash.assign@^2.4.1" args=["lodash.assign@^2.4.1",null]
+256 verbose parsed spec { raw: 'gulp-util@^3.0.0',
+256 verbose parsed spec   scope: null,
+256 verbose parsed spec   name: 'gulp-util',
+256 verbose parsed spec   rawSpec: '^3.0.0',
+256 verbose parsed spec   spec: '>=3.0.0-0 <4.0.0-0',
+256 verbose parsed spec   type: 'range' }
+257 verbose addNamed [ 'gulp-util', '>=3.0.0-0 <4.0.0-0' ]
+258 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+259 silly lockFile 0fea1d07-gulp-util-3-0-0-0-4-0-0-0 gulp-util@>=3.0.0-0 <4.0.0-0
+260 verbose lock gulp-util@>=3.0.0-0 <4.0.0-0 /Users/hgd4th/.npm/0fea1d07-gulp-util-3-0-0-0-4-0-0-0.lock
+261 verbose cache add [ 'tiny-lr@^0.1.0', null ]
+262 verbose cache add spec="tiny-lr@^0.1.0" args=["tiny-lr@^0.1.0",null]
+263 verbose parsed spec { raw: 'lodash.assign@^2.4.1',
+263 verbose parsed spec   scope: null,
+263 verbose parsed spec   name: 'lodash.assign',
+263 verbose parsed spec   rawSpec: '^2.4.1',
+263 verbose parsed spec   spec: '>=2.4.1-0 <3.0.0-0',
+263 verbose parsed spec   type: 'range' }
+264 verbose addNamed [ 'lodash.assign', '>=2.4.1-0 <3.0.0-0' ]
+265 verbose addNamed [ null, '>=2.4.1-0 <3.0.0-0' ]
+266 silly lockFile f532ebd5-lodash-assign-2-4-1-0-3-0-0-0 lodash.assign@>=2.4.1-0 <3.0.0-0
+267 verbose lock lodash.assign@>=2.4.1-0 <3.0.0-0 /Users/hgd4th/.npm/f532ebd5-lodash-assign-2-4-1-0-3-0-0-0.lock
+268 verbose parsed spec { raw: 'tiny-lr@^0.1.0',
+268 verbose parsed spec   scope: null,
+268 verbose parsed spec   name: 'tiny-lr',
+268 verbose parsed spec   rawSpec: '^0.1.0',
+268 verbose parsed spec   spec: '0.1.0',
+268 verbose parsed spec   type: 'range' }
+269 verbose addNamed [ 'tiny-lr', '0.1.0' ]
+270 verbose addNamed [ '0.1.0', '0.1.0' ]
+271 silly lockFile a4b0c42f-tiny-lr-0-1-0 tiny-lr@0.1.0
+272 verbose lock tiny-lr@0.1.0 /Users/hgd4th/.npm/a4b0c42f-tiny-lr-0-1-0.lock
+273 silly addNameRange { name: 'gulp-util',
+273 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+273 silly addNameRange   hasData: false }
+274 verbose mapToRegistry name gulp-util
+275 verbose mapToRegistry uri https://registry.npmjs.org/gulp-util
+276 silly addNameRange { name: 'lodash.assign',
+276 silly addNameRange   range: '>=2.4.1-0 <3.0.0-0',
+276 silly addNameRange   hasData: false }
+277 verbose mapToRegistry name lodash.assign
+278 verbose mapToRegistry uri https://registry.npmjs.org/lodash.assign
+279 verbose mapToRegistry name tiny-lr
+280 verbose mapToRegistry uri https://registry.npmjs.org/tiny-lr
+281 verbose request on initialization, where is /gulp-util
+282 verbose request after pass 1, where is /gulp-util
+283 verbose request url raw /gulp-util
+284 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-util' ]
+285 verbose request after pass 2, where is https://registry.npmjs.org/gulp-util
+286 verbose request no auth needed
+287 info retrier registry request attempt 1 at 13:23:19
+288 verbose etag "D97RAZCLNG1J9ZO3KCB0C8V2H"
+289 http request GET https://registry.npmjs.org/gulp-util
+290 verbose request on initialization, where is /lodash.assign
+291 verbose request after pass 1, where is /lodash.assign
+292 verbose request url raw /lodash.assign
+293 verbose request resolving registry [ 'https://registry.npmjs.org/', './lodash.assign' ]
+294 verbose request after pass 2, where is https://registry.npmjs.org/lodash.assign
+295 verbose request no auth needed
+296 info retrier registry request attempt 1 at 13:23:19
+297 verbose etag "EPI01Z3KLNKW2FZXOXUY84TFU"
+298 http request GET https://registry.npmjs.org/lodash.assign
+299 verbose request on initialization, where is /tiny-lr
+300 verbose request after pass 1, where is /tiny-lr
+301 verbose request url raw /tiny-lr
+302 verbose request resolving registry [ 'https://registry.npmjs.org/', './tiny-lr' ]
+303 verbose request after pass 2, where is https://registry.npmjs.org/tiny-lr
+304 verbose request no auth needed
+305 info retrier registry request attempt 1 at 13:23:19
+306 verbose etag "1BFHCKKJXQO9QF386ERZ7O5H8"
+307 http request GET https://registry.npmjs.org/tiny-lr
+308 http 304 https://registry.npmjs.org/chalk
+309 silly registry.get cb [ 304,
+309 silly registry.get   { date: 'Wed, 03 Sep 2014 17:22:08 GMT',
+309 silly registry.get     server: 'Apache',
+309 silly registry.get     via: '1.1 varnish',
+309 silly registry.get     'last-modified': 'Wed, 03 Sep 2014 17:22:08 GMT',
+309 silly registry.get     'cache-control': 'max-age=60',
+309 silly registry.get     etag: '"20S0Y3CS9WXX65EFZGVPJE2N2"',
+309 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+309 silly registry.get     'x-cache': 'HIT',
+309 silly registry.get     'x-cache-hits': '1',
+309 silly registry.get     'x-timer': 'S1409764928.312625,VS0,VE0',
+309 silly registry.get     vary: 'Accept',
+309 silly registry.get     'content-length': '0',
+309 silly registry.get     'keep-alive': 'timeout=10, max=50',
+309 silly registry.get     connection: 'Keep-Alive' } ]
+310 verbose etag https://registry.npmjs.org/chalk from cache
+311 http 304 https://registry.npmjs.org/through2
+312 silly registry.get cb [ 304,
+312 silly registry.get   { date: 'Wed, 03 Sep 2014 17:22:08 GMT',
+312 silly registry.get     server: 'Apache',
+312 silly registry.get     via: '1.1 varnish',
+312 silly registry.get     'last-modified': 'Wed, 03 Sep 2014 17:21:17 GMT',
+312 silly registry.get     'cache-control': 'max-age=60',
+312 silly registry.get     etag: '"9GPB3QYSJ0FVC2H95TEJ0O0B3"',
+312 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+312 silly registry.get     'x-cache': 'HIT',
+312 silly registry.get     'x-cache-hits': '2',
+312 silly registry.get     'x-timer': 'S1409764928.312527,VS0,VE0',
+312 silly registry.get     vary: 'Accept',
+312 silly registry.get     'content-length': '0',
+312 silly registry.get     'keep-alive': 'timeout=10, max=50',
+312 silly registry.get     connection: 'Keep-Alive' } ]
+313 verbose etag https://registry.npmjs.org/through2 from cache
+314 http 304 https://registry.npmjs.org/object-assign
+315 silly registry.get cb [ 304,
+315 silly registry.get   { date: 'Wed, 03 Sep 2014 17:22:08 GMT',
+315 silly registry.get     server: 'Apache',
+315 silly registry.get     via: '1.1 varnish',
+315 silly registry.get     'last-modified': 'Wed, 03 Sep 2014 17:22:08 GMT',
+315 silly registry.get     'cache-control': 'max-age=60',
+315 silly registry.get     etag: '"A7AL5ZJO743ZPM183J06EX26N"',
+315 silly registry.get     'x-served-by': 'cache-jfk1026-JFK',
+315 silly registry.get     'x-cache': 'HIT',
+315 silly registry.get     'x-cache-hits': '1',
+315 silly registry.get     'x-timer': 'S1409764928.315088,VS0,VE0',
+315 silly registry.get     vary: 'Accept',
+315 silly registry.get     'content-length': '0',
+315 silly registry.get     'keep-alive': 'timeout=10, max=50',
+315 silly registry.get     connection: 'Keep-Alive' } ]
+316 verbose etag https://registry.npmjs.org/object-assign from cache
+317 http 304 https://registry.npmjs.org/imagemin
+318 silly registry.get cb [ 304,
+318 silly registry.get   { date: 'Wed, 03 Sep 2014 17:22:08 GMT',
+318 silly registry.get     server: 'Apache',
+318 silly registry.get     via: '1.1 varnish',
+318 silly registry.get     'last-modified': 'Wed, 03 Sep 2014 17:22:08 GMT',
+318 silly registry.get     'cache-control': 'max-age=60',
+318 silly registry.get     etag: '"286YFYSZNDH8JC7WATDB8UDKP"',
+318 silly registry.get     'x-served-by': 'cache-jfk1033-JFK',
+318 silly registry.get     'x-cache': 'HIT',
+318 silly registry.get     'x-cache-hits': '1',
+318 silly registry.get     'x-timer': 'S1409764928.314421,VS0,VE14',
+318 silly registry.get     vary: 'Accept',
+318 silly registry.get     'content-length': '0',
+318 silly registry.get     'keep-alive': 'timeout=10, max=50',
+318 silly registry.get     connection: 'Keep-Alive' } ]
+319 verbose etag https://registry.npmjs.org/imagemin from cache
+320 silly lockFile 33f46ee6-imagemin-0-4-2 imagemin@0.4.2
+321 silly lockFile 33f46ee6-imagemin-0-4-2 imagemin@0.4.2
+322 verbose about to build /Users/hgd4th/Projects/4sight/node_modules/gulp-imagemin
+323 verbose node_modules/gulp-imagemin unbuild
+324 info preuninstall gulp-imagemin@0.6.0
+325 silly lockFile cc0b1369-through2-0-5-1 through2@0.5.1
+326 silly lockFile cc0b1369-through2-0-5-1 through2@0.5.1
+327 info uninstall gulp-imagemin@0.6.0
+328 verbose true,/Users/hgd4th/Projects/4sight/node_modules,/Users/hgd4th/Projects/4sight/node_modules unbuild gulp-imagemin@0.6.0
+329 info postuninstall gulp-imagemin@0.6.0
+330 verbose gentlyRm vacuuming /Users/hgd4th/Projects/4sight/node_modules/gulp-imagemin
+331 silly gentlyRm purging /Users/hgd4th/Projects/4sight/node_modules/gulp-imagemin
+332 silly lockFile 5bbb2364-object-assign-0-3-0 object-assign@0.3.0
+333 silly lockFile 5bbb2364-object-assign-0-3-0 object-assign@0.3.0
+334 silly gentlyRm quitting because other entries in /Users/hgd4th/Projects/4sight/node_modules
+335 error Error: version not found: imagemin@0.4.2
+335 error     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:127:12)
+335 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+335 error     at /usr/local/lib/node_modules/npm/node_modules/cmd-shim/node_modules/graceful-fs/polyfills.js:133:7
+335 error     at Object.oncomplete (fs.js:107:15)
+336 error If you need help, you may report this *entire* log,
+336 error including the npm and node versions, at:
+336 error     <http://github.com/npm/npm/issues>
+337 error System Darwin 13.3.0
+338 error command "node" "/usr/local/bin/npm" "install"
+339 error cwd /Users/hgd4th/Projects/4sight
+340 error node -v v0.10.31
+341 error npm -v 2.0.0-beta.0
+342 verbose exit [ 1, true ]
