@@ -4,6 +4,12 @@ $('a.link').mouseenter(function(){
 $('a.link').mouseleave(function(){
   $(this).removeClass('linkHover');
 });
+$('a.resume').mouseenter(function(){
+	$(this).addClass('linkHover');
+});
+$('a.resume').mouseleave(function(){
+  $(this).removeClass('linkHover');
+});
 $('a.linkedin').hover(function(){
 	$('.hiddenText').filter(':not(:animated)').animate({
 		opacity: 1
