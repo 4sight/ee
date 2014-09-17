@@ -10,12 +10,21 @@ $('a.resume').mouseenter(function(){
 $('a.resume').mouseleave(function(){
   $(this).removeClass('linkHover');
 });
-$('a.linkedin').hover(function(){
-	$('.hiddenText').filter(':not(:animated)').animate({
+$('a#github').hover(function(){
+	$('#githubText').filter(':not(:animated)').animate({
 		opacity: 1
 	})},
 	function(){
-		$('.hiddenText').animate({
+		$('#githubText').animate({
+			opacity: 0
+		})
+	});
+$('a#linkedIn').hover(function(){
+	$('#linkedInText').filter(':not(:animated)').animate({
+		opacity: 1
+	})},
+	function(){
+		$('#linkedInText').animate({
 			opacity: 0
 		})
 	});

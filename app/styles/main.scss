@@ -69,13 +69,32 @@ footer {
   color: grey;
 }
 
-.hiddenText {
+.bottomIcon {
+  display: inline-block;
+}
+
+#githubIcon {
+  opacity: 0.7;
+  position: relative;
+  left: 140px;
+}
+
+@mixin hiddenText {
   color: #4E4E4E;
   font-size: 14px;
   position: relative;
-  top: -30px;
-  left: 100px;
   opacity: 0;
+}
+
+#linkedInText {
+  @include hiddenText;
+  top: -15px;
+}
+
+#githubText {
+  @include hiddenText;
+  top: -15px;
+  left: -50px;
 }
 
 #resume {
