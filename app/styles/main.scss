@@ -4,12 +4,19 @@
 
 // Custom Styles
 body {
-  background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
 
-$color1: #10D5EB;
+#stars {
+  background-image: url(../images/background.jpg);
+  background-size: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+$color1: #7B5940;
 $barPadding: 8px;
 
 a {
@@ -21,17 +28,18 @@ a:active {color: #333;}
 a:visited {color: #333;}
 a:hover {color: #333;}
 
-#topbar {
-  width: 100%;
-  height: 20px;
-  background-color: $color1;
-}
+// #topbar {
+//   width: 100%;
+//   height: 50px;
+//   background-color: black;
+// }
 
 h1 {
   font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
   font-size: 36px;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 0px;
+  padding-top: 70px;
 }
 
 h2 {
@@ -60,7 +68,7 @@ h3 {
 }
 
 .linkHover {
-  box-shadow: 0 0 40px $color1;
+  box-shadow: 0 0 20px 10px $color1;
 }
 
 footer {
@@ -77,6 +85,7 @@ footer {
   opacity: 0.7;
   position: relative;
   left: 140px;
+  top: -2px;
 }
 
 @mixin hiddenText {
@@ -165,6 +174,13 @@ and (max-width : 500px) {
   }
   footer {
     margin-top: 0px;
+  }
+}
+
+@media only screen
+and (max-width : 854px) {
+  #stars {
+    background-image: none;
   }
 }
 
