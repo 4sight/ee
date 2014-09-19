@@ -6,7 +6,7 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #DDDDDD;
-  background-color: #2C3E50;
+  background-color: #15395D;
 }
 
 #stars {
@@ -19,7 +19,7 @@ body {
 }
 
 $color1: #7B5940;
-$barPadding: 8px;
+$padding: -30px;
 
 a {
   text-decoration: none;
@@ -68,9 +68,8 @@ h3 {
 }
 
 footer {
-  margin: 80px auto 0px auto;
   text-align: center;
-  color: #DDDDDD;
+  color: black;
 }
 
 .bottomIcon {
@@ -81,11 +80,17 @@ footer {
   opacity: 0.7;
   position: relative;
   left: 140px;
-  top: -2px;
+  top: -2px + $padding;
+}
+
+#linkedInIcon {
+  position: relative;
+  top: $padding;
+  opacity: 0.7;
 }
 
 @mixin hiddenText {
-  color: #4E4E4E;
+  color: black;
   font-size: 14px;
   position: relative;
   opacity: 0;
@@ -93,13 +98,18 @@ footer {
 
 #linkedInText {
   @include hiddenText;
-  top: -15px;
+  top: -15px + $padding;
 }
 
 #githubText {
   @include hiddenText;
-  top: -15px;
+  top: -12px + $padding;
   left: -50px;
+}
+
+#copyright {
+  position: relative;
+  top: -40px;
 }
 
 #resume {
@@ -134,14 +144,10 @@ td {
   text-align: right;
 }
 
-.place {
-  display: inline;
-  font-weight: bold;
-}
-
-.bar {
-  display: inline;
-  padding: 0px $barPadding 0px $barPadding;
+#bar {
+  height: 40px;
+  background-color: black;
+  margin-bottom: 20px;
 }
 
 .block {
@@ -149,7 +155,7 @@ td {
 }
 
 @media only screen
-and (max-width : 500px) {
+and (max-width : 670px) {
   h3 {
     font-size: 16px;
   }
@@ -172,15 +178,8 @@ and (max-width : 500px) {
   }
 }
 
-// @media only screen
-// and (max-width : 854px) {
-//   #stars {
-//     background-image: none;
-//   }
-// }
-
 @media only screen
-and (min-width : 500px)
+and (min-width : 670px)
 and (max-width : 900px) {
   .link {
     background-color: initial;
@@ -193,21 +192,35 @@ and (max-width : 900px) {
     top: -50px;
   }
 }
+
 @media only screen
-and (max-width : 1000px) {
-  h2 {
-    color: #DDDDDD;
+and (max-width : 1080px) {
+  h1 {
+    color: #808080;
+  }
+  body {
+    background-color: white;
   }
   #stars {
     background-image: none;
   }
+  #bar {
+    display: none;
+  }
 }
 
 @media only screen
-and (min-width : 1060px)
-and (max-width : 1120px) {
+and (min-width : 1080px) {
   footer {
     position: relative;
-    top: 20px;
+    top: 40px;
+  }
+
+}
+
+@media only screen
+and (max-width : 1111px) {
+  #bar {
+    display: none;
   }
 }
