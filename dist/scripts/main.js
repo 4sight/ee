@@ -28,3 +28,12 @@ $('a#linkedIn').hover(function(){
 			opacity: 0
 		})
 	});
+$('.fa-phone').hover(function(){
+	$('#phoneText').filter(':not(:animated)').animate({
+		opacity: 1
+	})},
+	function(){
+		$('#phoneText').animate({
+			opacity: 0
+		})
+	});
