@@ -20,12 +20,17 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body style='background-color: #15395D; color: #DDDDDD;'>
-<!--     <header>
-        <div id='topbar'></div>
-    </header> -->
+    <div id='top'>
+        <a href='mailto:horace.dawson@ncf.edu'><i class="fa fa-envelope-o fa-2x"></i></a>
+        <a href=''><i class="fa fa-phone fa-2x"></i></a>
+        <a href='https://github.com/4sight'><i class="fa fa-github fa-2x"></i></a>
+    </div>
     <div id='stars'>
+        <p id='phoneText'>407.970.6356</p>
         <h1>I'm Greeley Dawson.</h1>
         <h2>front-end web developer, blogger, audio mixologist, music enthusiast</h2>
         <div id='main'>
@@ -49,15 +54,15 @@
     </div>
         <div id='bar'></div>
         <footer>
-            <p style='margin-bottom: 20px;'><a href='horace.dawson@ncf.edu' style='color: black;'>horace.dawson@ncf.edu</a></p>
+            <p style='margin-bottom: 20px;'><a href='horace.dawson@ncf.edu' id='email'>horace.dawson@ncf.edu</a></p>
             <p style='margin-bottom: 50px; margin-top: -10px'>407.970.6356</p>
             <a href='https://github.com/4sight' id='github'>
-                <img src='../images/github.png' id='githubIcon' class='bottomIcon' height=33px width=33px>
-                <div class='hiddenText bottomIcon' id='githubText'>Visit my Github profile</div>
+                <i class="fa fa-github fa-2x" id='githubIcon'></i>
+                <div class='bottomIcon' id='githubText'>Visit my Github profile</div>
             </a>
             <a href='https://www.linkedin.com/profile/view?id=115638716' id='linkedIn'>
-                <img src='../images/linkedin.png' id='linkedInIcon' class='bottomIcon' height=40px width=40px>
-                <div class='hiddenText bottomIcon' id='linkedInText'>Visit my LinkedIn profile</div>
+                <i class="fa fa-linkedin fa-2x" id='linkedInIcon'></i>
+                <div class='bottomIcon' id='linkedInText'>Visit my LinkedIn profile</div>
             </a>
             <p id='copyright'>Copyright &copy 2014 - Greeley Dawson</p>
         </footer>
