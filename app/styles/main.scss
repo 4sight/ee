@@ -89,7 +89,10 @@ h3 {
   border-radius: 50px;
   background-color: #DDDDDD;
   height: 300px;
-  padding: 10px 30px 10px 30px;
+  padding: 0px 30px 10px 30px;
+  p {
+    font-size: 14px;
+  }
 }
 
 .linkHover {
@@ -106,31 +109,44 @@ footer {
 }
 
 #githubIcon {
-  opacity: 0.7;
+  opacity: 0.9;
   position: relative;
   top: -10px + $padding;
-  left: 140px;
+  right: -75px;
   color: white;
 }
 
 #linkedInIcon {
   position: relative;
   top: -10px + $padding;
-  right: -5px;
-  opacity: 0.7;
+  right: 60px;
+  opacity: 0.9;
   color: white;
+}
+
+#tumblrIcon {
+  position: relative;
+  top: -4px + $padding;
+  right: -205px;
+  opacity: 0.9;
 }
 
 #linkedInText {
   @include hiddenText;
   top: -15px + $padding;
-  right: -20px;
+  right: 45px;
 }
 
 #githubText {
   @include hiddenText;
+  top: 10px + $padding;
+  left: -10px;
+}
+
+#tumblrText {
+  @include hiddenText;
   top: -15px + $padding;
-  left: -50px;
+  left: 30px;
 }
 
 #copyright {
