@@ -151,7 +151,7 @@ footer {
 
 #copyright {
   position: relative;
-  top: -40px;
+  top: -35px;
 }
 
 #resume {
@@ -208,12 +208,15 @@ td {
 
 @media only screen
 and (max-width : 670px) {
-  body {
-    background-color: white;
-  }
+  // body {
+  //   background-color: white;
+  // }
   h3 {
     font-size: 16px;
   }
+  // #stars {
+  //   background-size: 600px;
+  // }
   p {
     font-size: 12px;
   }
@@ -236,9 +239,9 @@ and (max-width : 670px) {
 @media only screen
 and (min-width : 670px)
 and (max-width : 900px) {
-  body {
-    background-color: white;
-  }
+  // body {
+  //   background-color: white;
+  // }
   #githubIcon, #linkedInIcon, .fa-github, .fa-linkedin, #phoneText, #linkedInText, 
   #githubText, footer, .fa-phone, .fa-envelope-o, .fa-github, #email {
     color: grey;
@@ -268,7 +271,7 @@ and (max-width : 1080px) {
     background-color: white;
   }
   #stars {
-    background-image: none;
+    background-size: 1080px;
   }
   #bar {
     display: none;
