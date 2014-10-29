@@ -104,7 +104,7 @@ footer {
   color: $offWhite;
 }
 
-.bottomIcon {
+.hiddenText {
   display: inline-block;
 }
 
@@ -190,6 +190,8 @@ td {
   height: 40px;
   background-color: black;
   margin-bottom: 20px;
+  position: relative;
+  top: -14px;
 }
 
 .block {
@@ -208,23 +210,31 @@ td {
 
 @media only screen
 and (max-width : 670px) {
-  // body {
-  //   background-color: white;
-  // }
+  #stars {
+    background-size: 1080px;
+  }
   h3 {
     font-size: 16px;
+    color: #DDDDDD;
   }
-  // #stars {
-  //   background-size: 600px;
-  // }
-  p {
+  h2 {
+    color: #DDDDDD;
+  }
+  .link p {
     font-size: 12px;
+    color: #DDDDDD;
+  }
+  .hiddenText {
+    display: none;
   }
   .image {
     display: none;
   }
+  #bar {
+    display: none;
+  }
   .link {
-    background-color: white;
+    background-color: transparent;
     margin: 0px;
     padding: 5px;
   }
@@ -239,60 +249,30 @@ and (max-width : 670px) {
 @media only screen
 and (min-width : 670px)
 and (max-width : 900px) {
-  // body {
-  //   background-color: white;
-  // }
-  #githubIcon, #linkedInIcon, .fa-github, .fa-linkedin, #phoneText, #linkedInText, 
-  #githubText, footer, .fa-phone, .fa-envelope-o, .fa-github, #email {
-    color: grey;
+  #stars {
+    background-size: 1080px;
   }
-  .link {
-    background-color: white;
+  .image {
+    display: none;
   }
-  .linkHover {
-    box-shadow: none;
-  }
-  footer {
-    position: relative;
-    top: -50px;
+  .link p {
+    font-size: 16px;
   }
 }
 
 @media only screen
+and (min-width : 900px)
 and (max-width : 1080px) {
-  #githubIcon, #linkedInIcon, .fa-github, .fa-linkedin, #phoneText, #linkedInText, 
-  #githubText, footer, .fa-phone, .fa-envelope-o, .fa-github, #email {
-    color: grey;
-  }
-  h1 {
-    color: #808080;
-  }
-  body {
-    background-color: white;
-  }
   #stars {
     background-size: 1080px;
+  }
+  .link p {
+    font-size: 13px;
   }
   #bar {
     display: none;
   }
   .resume {
-    display: none;
-  }
-}
-
-@media only screen
-and (min-width : 1080px) {
-  footer {
-    position: relative;
-    top: 40px;
-  }
-
-}
-
-@media only screen
-and (max-width : 1111px) {
-  #bar {
     display: none;
   }
 }
