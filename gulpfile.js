@@ -1,5 +1,5 @@
 'use strict';
-// generated on 2014-08-05 using generator-tiy-webapp 0.0.8
+// generated on 2014-08-25 using generator-tiy-webapp 0.0.8
 
 // Require your modules
 var gulp = require('gulp');
@@ -31,10 +31,10 @@ gulp.task('html', ['styles'], function () {
 
 gulp.task('images', function () {
   return gulp.src('app/images/**/*')
-    .pipe($.cache($.imagemin({
-      progressive: true,
-      interlaced: true
-    })))
+    // .pipe($.cache($.imagemin({
+    //   progressive: true,
+    //   interlaced: true
+    // })))
     .pipe(gulp.dest('dist/images'));
 });
 
