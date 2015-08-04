@@ -37,6 +37,15 @@ $('a#tumblr').hover(function(){
 			opacity: 0
 		})
 	});
+$('a#soundcloud').hover(function(){
+	$('#soundcloudText').filter(':not(:animated)').animate({
+		opacity: 1
+	})},
+	function(){
+		$('#soundcloudText').animate({
+			opacity: 0
+		})
+	});
 $('.fa-phone').hover(function(){
 	$('#phoneText').filter(':not(:animated)').animate({
 		opacity: 1

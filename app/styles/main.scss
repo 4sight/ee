@@ -131,6 +131,21 @@ footer {
   opacity: 0.9;
 }
 
+#soundcloudIcon {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  bottom: 60px;
+  right: 4px;
+  opacity: 0.9;
+}
+
+#soundcloudText {
+  @include hiddenText;
+  top: -100px;
+  right: 10px;
+}
+
 #linkedInText {
   @include hiddenText;
   top: -15px + $padding;
@@ -151,7 +166,7 @@ footer {
 
 #copyright {
   position: relative;
-  top: -35px;
+  top: -100px;
 }
 
 #resume {
