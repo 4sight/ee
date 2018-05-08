@@ -1,79 +1,56 @@
 <!doctype html>
 <html class="no-js">
   <head>
+    <script type='text/javascript' src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>Greeley Dawson</title>
+    <title>The Essential Economy</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="styles/vendor.css">
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css
+    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
+    endbower -->
+    <!-- endbuild -->
 
-    <link rel="stylesheet" href="styles/main.css">
-
-    <script src="scripts/vendor/modernizr.js"></script>
-
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    endbuild -->
+    <script src='scripts/main.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
   </head>
   <body>
-    <div id='top'>
-        <a href='mailto:horace.dawson@ncf.edu'><i class="fa fa-envelope-o fa-2x"></i></a>
-        <a href=''><i class="fa fa-phone fa-2x"></i></a>
-        <a href='https://github.com/4sight'><i class="fa fa-github fa-2x"></i></a>
+    <div class='header'>
+        <span class='topLinks'>HOME</span>
+        <span class='topLinks'>NEWS</span>
+        <span class='topLinks'>CONTACT</span>
+        <span class='topLinks'>DONATE</span>
     </div>
-    <div id='stars'>
-        <p id='phoneText'>407.970.6356</p>
-        <h1>I'm Greeley Dawson.</h1>
-        <h2>front-end web developer, blogger, audio mixologist, music enthusiast</h2>
-        <div id='main'>
-            <!-- <a href='http://newnowwow.com/' class='link'>
-                <h3>new. now. wow.</h3>
-                <img src='../images/tumblr.svg' class='image' height=120px width=120px style='opacity: 0.8;'>
-                <p>A blog for my favorite new music.</p>
-            </a> -->
-            <a href='http://4sight.github.io/surf-and-paddle/' class='link'>
-                <h3>Surf & Paddle Mockup</h3>
-                <img src='../images/compass.png' class='image' style='opacity: 0.7; margin-top: 15px; margin-bottom: 6px; height: 80px; width: 80px;'>
-                <img src='../images/ruler.png' class='image' style='opacity: 0.7; margin-top: 15px; margin-bottom: 6px; height: 80px; width: 80px;'>
-                <p>A website for a non-existant organization designed to demonstrate my markup abilities.<br><br>
-                Includes: HTML, Sass</p>
-            </a>
-            <a href='http://freeclouds.heroku.com/' class='link'>
-                <h3>freeclouds</h3>
-                <img src='http://freeclouds.herokuapp.com/images/logo.png' class='image' style='opacity: 0.7; margin-top: 15px; margin-bottom: 6px; height: 80px; width: 80px;'>
-                <p>A web app I created to make it easy to find free music by your favorite artists on Soundcloud.<br><br>
-                Includes: HTML, Sass, jQuery, Underscore, Backbone, Soundcloud API</p>
-            </a>
-            <a href='resume.html' class='link'>
-                <h3>e-résumé</h3>
-                <img src='../images/document.png' class='image' height=80px width=80px 
-                style='margin-top: 10px; margin-bottom: 10px;'>
-                <p>An interactive presentation of<br>my skills and background.</p>
-            </a>
+    <div id='banner'>
+        <img src='images/fields.jpg' id='fields'>
+        <div id='homeLogo'>
+            <img src='images/logo.png' id='ee' style='height: 200px; width: 200px;'>
         </div>
     </div>
-        <div id='bar'></div>
-        <footer>
-            <p style='margin-bottom: 20px;'><a href='horace.dawson@ncf.edu' id='email'>horace.dawson@ncf.edu</a></p>
-            <p style='margin-bottom: 50px; margin-top: -10px'>407.970.6356</p>
-            <a href='http://newnowwow.com/' id='tumblr'>
-                <img src='../images/tumblr.png' style='display: inline-block; height: 35px; width: 35px;' id='tumblrIcon'>
-                <div class='hiddenText' id='tumblrText'>Visit my tumblr blog</div>
-            </a>
-            <a href='https://github.com/4sight' id='github'>
-                <i class="fa fa-github fa-2x" id='githubIcon'></i>
-                <div class='hiddenText' id='githubText'>Visit my Github profile</div>
-            </a>
-            <a href='https://www.linkedin.com/profile/view?id=115638716' id='linkedIn'>
-                <i class="fa fa-linkedin fa-2x" id='linkedInIcon'></i>
-                <div class='hiddenText' id='linkedInText'>Visit my LinkedIn profile</div>
-            </a>
-            <p id='copyright'>Copyright &copy 2014 - Greeley Dawson</p>
-        </footer>
-    <!-- </div> -->
-
-    <script src="scripts/vendor.js"></script>
-
-        <script src="scripts/main.js"></script>
-</body>
-</html>
+    <div id='content'>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ts5PNDBhsa0" frameborder="0" allowfullscreen></iframe>
+        <div id='homeText'>
+            The Essential Economy Council is a bipartisan, nonprofit 501(c)(3) organization that aims to inform elected officials and business leaders on some of the most important sectors in our economy, where employees do hard work to produce goods and services that are essential to our economic growth and quality of life.
+        </div>
+    </div>
+        <a href='' id='connectLink'><div id='connect'>CONNECT WITH US</div></a>
+    <div class='footer'>
+        <i class='icon-social-facebook icons'></i>
+        <i class='icon-social-twitter icons'></i>
+        <i class='icon-social-linkedin icons'></i>
+        <i class='icon-paypal icons'></i>
+    </div>
+    <div class='copyright'>©2018 The Essential Economy Council. All Rights Reserved</div>
+  </body>
+  </html>
